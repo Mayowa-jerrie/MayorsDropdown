@@ -63,6 +63,7 @@ border-radius: 5px;
 .menu-bar ul li:hover .sub-menu-1 ul{
     display: block;
     margin: 10px;
+    background-color: re;
 }
 .menu-bar ul li:hover .sub-menu-1 ul li{
     width: 150px;
@@ -86,15 +87,36 @@ border-radius: 5px;
 
 .sub-menu-2{
     display: none;
+    
 }
 .hover-me:hover .sub-menu-2{
     position: absolute;
     display: block;
     margin-top: -40px;
     margin-left: 140px;
-    background: rgb(0, 100, 0);
-
 }
+
+.sub-menu-2 ul{
+    background-color: rgb(156, 182, 201);
+    border-radius: 5px;
+}
+
+
+
+
+.sub-menu-22{
+    display: none;
+    background: brown;
+    border-radius: 25px 1px;
+    
+}
+.hover-me:hover .sub-menu-22{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+}
+
 
 
 
